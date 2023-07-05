@@ -1,4 +1,4 @@
-# HTML, basic
+# HTML, advanced
 
 ## What is HTML?
 
