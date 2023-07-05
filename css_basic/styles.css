@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+main > article {
+  flex: 2;
+  overflow-y: auto;
+}
+main > aside {
+  flex: 1;
+  overflow-y: auto;
+  background: #d8d0d0;
+  color: #0000ff;
+  font-size: large;
+}
+
+/* Image styling */
+img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+/* Table styling. */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #e5e5e5;
+}
