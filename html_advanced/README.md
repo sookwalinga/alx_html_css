@@ -24,6 +24,32 @@ An HTML element, also known as a tag, represents a specific part of a webpage's 
 
 An attribute provides additional information about an HTML element. It is specified within the opening tag of an element and consists of a name and a value. Attributes modify or enhance the behavior, appearance, or functionality of an element. For example, the "src" attribute in the <img> tag specifies the image source URL.
 
-## How does the browser load a webpage?
+## What the purpose of each HTML tag?
 
-When a browser loads a webpage, it follows a process known as rendering. First, it sends a request to the server for the webpage's resources (HTML, CSS, JavaScript, images, etc.). Once received, the browser parses the HTML code to create the DOM tree. It then fetches and processes external resources like CSS and JavaScript. Finally, the browser renders and displays the webpage based on the instructions provided by the HTML, CSS, and JavaScript code.
+Each tag serves a specific purpose in defining the structure, content, and behavior of a webpage.
+
+<html>: Represents the root of an HTML document.
+<head>: Contains metadata about the document, such as the title and links to stylesheets.
+<title>: Specifies the title of the webpage, which appears in the browser's title bar or tab.
+<body>: Contains the main content of the webpage.
+<h1> to <h6>: Heading tags used to define various levels of headings, with <h1> being the highest level.
+<p>: Represents a paragraph of text.
+<a>: Creates a hyperlink to another webpage or resource.
+<img>: Embeds an image into the webpage.
+<ul>: Represents an unordered (bulleted) list.
+<ol>: Represents an ordered (numbered) list.
+<li>: Defines a list item within <ul> or <ol>.
+<div>: A container that groups elements and helps with CSS styling.
+<span>: Inline container used for small portions of text or styling purposes.
+<table>: Creates a table for tabular data.
+<tr>: Defines a table row.
+<td>: Represents a table cell within a row.
+<form>: Creates a form to gather user input.
+<input>: Defines an input field within a form.
+<button>: Represents a clickable button.
+<textarea>: Creates a multiline text input field.
+<select>: Creates a dropdown list or a list box.
+<option>: Defines an option within a <select> element.
+<iframe>: Embeds another HTML page within the current document.
+<audio> and <video>: Used to embed audio and video content, respectively.
+<header>, <footer>, <nav>, <main>, <section>: Semantic tags that define specific sections of the webpage.
