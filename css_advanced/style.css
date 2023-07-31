@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800&display=swap');
+/* 'Source Sans 3', sans-serif; */
+
+@font-face {
+  font-family: 'spin_cycle_otregular';
+  src: url('fonts/spincycle_ot-webfont.eot');
+  src: url('spincycle_ot-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/spincycle_ot-webfont.woff2') format('woff2'),
+    url('fonts/spincycle_ot-webfont.woff') format('woff'),
+    url('fonts/spincycle_ot-webfont.ttf') format('truetype'),
+    url('spincycle_ot-webfont.svg#spin_cycle_otregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.main-page {
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+/*** 1. Header ***/
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 80px 0 80px;
+}
+
+.site-logo img {
+  width: 167.02px;
+}
+
+.navigation-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 52px;
+}
+
+.navigation-links li {
+  list-style: none;
+  /* padding: 26px; */
+}
+
+.navigation-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/*** 2. Main ***/
+#main-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.get-schooled {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.get-schooled h1 {
+  font-size: 120px;
+  line-height: 151px;
+  padding-bottom: 0px;
+  padding-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  margin: 152px 0 0 0;
+  color: white;
+}
+
+.smile-grin-laugh {
+  display: flex;
+  justify-content: space-between;
+  gap: 59px;
+  color: white;
+}
+
+.smile-grin-laugh p {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 0 42px 0;
+}
+
+.get-schooled button {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(194, 113, 255, 1);
+  border: none;
+  border-radius: 22px;
+  padding: 13px 20.5px;
+  column-gap: 160px;
+  cursor: pointer;
+  transition: opacity 300ms, transform 400ms, box-shadow 400ms;
+}
+
+.get-schooled button:hover {
+  opacity: 0.7;
+}
+
+.get-schooled button:active {
+  transform: scale(0.97);
+  box-shadow: 5px 5px 10px rgba(45, 1, 78, 0.6);
+}
+
+.learn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 168px;
+}
+
+.learn span {
+  font-weight: bold;
+  color: rgba(194, 113, 255, 1);
+}
+.learn h2 {
+  font-size: 32px;
+  font-weight: 350;
+  color: white;
+}
+
+#smile-winners {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  margin-top: 87px;
+}
+#smile-winners h3 {
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 27px;
+  padding: 0;
+  margin: 0;
+}
+#smile-winners p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 98px 0;
+  padding: 0;
+}
+
+/*** 3.Blockquote ***/
+.quote {
+  background-image: url('images/background-blockquote.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.quote-div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 53px;
+  margin: 0 auto;
+  color: white;
+}
+.quote-div1 img {
+  width: 160px;
+  height: 160px;
+  margin: 108px 0;
+}
+.quote-div2 {
+  display: flex;
+  flex-direction: column;
+}
+.quote-div2 blockquote {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 300;
+  margin: 0;
+}
+.quote-div2 h3 {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: bold;
+  margin: 0;
+}
+.quote-div2 p {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 33px;
+}
+
+/*** 4. Videos ***/
+#videos {
+  display: flex;
+  flex-direction: column;
+  padding: 0 105px 87px 105px;
+}
+#videos h2 {
+  text-align: center;
+  color: #071629;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 87px;
+  margin-bottom: 75px;
+}
+#videos span {
+  color: #c271ff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.main-vid-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.vid {
+  display: flex;
+  flex-direction: column;
+}
+
+.vid h3 {
+  color: #071629;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 7.6px;
+  margin-bottom: 7.6px;
+  padding: 0 10px;
+}
+.vid p {
+  margin-top: 0;
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+.pic-name {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin-top: 13.4px;
+  margin-bottom: 13.4px;
+}
+.pic-name h3 {
+  color: #c271ff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  padding-left: 16px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.rating .stars {
+  align-items: center;
+}
+.rating .stars img {
+  margin: 0;
+}
+.rating .time {
+  color: #c271ff;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+/*** 5.Membership ***/
+#membership {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url('images/background-membership.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+#membership h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 70px;
+  margin-bottom: 58px;
+}
+#membership span {
+  color: #c271ff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#main-memb-div {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+#main-memb-div h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 13px;
+}
+#main-memb-div p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 85px;
+}
+#main-memb-div img {
+  margin-bottom: 27px;
+}
+#membership button {
+  border: none;
+  border-radius: 22px;
+  background: #c271ff;
+  width: 172px;
+  height: 44px;
+  flex-shrink: 0;
+  color: white;
+  align-self: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 52px;
+  cursor: pointer;
+  transition: opacity 300ms, transform 400ms, box-shadow 400ms;
+}
+
+#membership button:hover {
+  opacity: 0.7;
+}
+
+#membership button:active {
+  transform: scale(0.97);
+  box-shadow: 5px 5px 10px rgba(97, 51, 133, 0.6);
+}
+
+/*** 6. F.A.Q ***/
+#FAQ {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#FAQ h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+#row-block1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+#row-block1 h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: start;
+}
+#row-block1 p {
+  font-size: 14px;
+  font-weight: normal;
+  color: rgba(7, 22, 41, 0.5016);
+  text-align: start;
+}
+
+#row-block2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 84px;
+}
+#row-block2 h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: start;
+}
+#row-block2 p {
+  font-size: 14px;
+  font-weight: normal;
+  color: rgba(7, 22, 41, 0.5016);
+  text-align: start;
+}
+
+/*** 7.Footer ***/
+footer {
+  background-image: url('images/background-footer.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+.last-div1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-div2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 166px;
+}
+.last-div1 p {
+  text-align: center;
+}
+.last-div1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: lighter;
+}
